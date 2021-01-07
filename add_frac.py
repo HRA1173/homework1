@@ -32,5 +32,5 @@ def add_frac(Zaehler1,Nenner1,Zaehler2,Nenner2):
     else:
         Nenner3 = Nenner1*Nenner2
         Zaehler3 = Zaehler1*Nenner2+Zaehler2*Nenner1
-        print("Ergebnis:", Zaehler3, "/", Nenner3)
+        return Zaehler3 / Nenner3
 
